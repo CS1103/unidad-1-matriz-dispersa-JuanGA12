@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Juan Galvez/Desktop/GitHub Desktop/unidad-1-matriz-dispersa-JuanGA12/Matriz_Dispersa/Matriz.cpp
+Matriz.h
+/Users/Juan Galvez/Desktop/GitHub Desktop/unidad-1-matriz-dispersa-JuanGA12/Matriz_Dispersa/Matriz.h
+
+/Users/Juan Galvez/Desktop/GitHub Desktop/unidad-1-matriz-dispersa-JuanGA12/Matriz_Dispersa/Matriz.h
+
+/Users/Juan Galvez/Desktop/GitHub Desktop/unidad-1-matriz-dispersa-JuanGA12/Matriz_Dispersa/main.cpp
+iostream
+-
+cassert
+-
+Matriz.cpp
+/Users/Juan Galvez/Desktop/GitHub Desktop/unidad-1-matriz-dispersa-JuanGA12/Matriz_Dispersa/Matriz.cpp
+

@@ -2,56 +2,59 @@
 
 using namespace std;
 
-
+// Todos los valores a 0.
 Matriz::Matriz(): matriz{nullptr}, filas {0}, columnas{0} {
 
 }
 
-Matriz::Matriz(int f, int c): filas {f}, columnas{c}
-{
+// Crear matriz
+Matriz::Matriz(int f, int c): filas {f}, columnas{c} {
     matriz = new int*[filas];
     for (int i= 0 ; i < filas; i++)
     {
         matriz[i] = new int[columnas];
     }
+}
+
+// Destructor
+Matriz::~Matriz() {
 
 }
 
-
-void Matriz::sumar(const Matriz& Matriz1) {
-
-    int matriz_re[filas][columnas];
-    for (int i = 0; i < filas; i++) {
-        for (int j = 0; j < columnas; ++j) {
-            matriz_re[i][j] = Matriz1[i][j]
+// Llenar matriz
+void Matriz::llenar(){
 
 
-        }
+}
 
-
-    }
-
-    }
-
-    void Matriz::multiplicar(const Matriz &, const Matriz &) {
-
-    }
-
-    void Matriz::escalar(const Matriz &, const Matriz &) {
-
-    }
-
-    void Matriz::transposicion(const Matriz &) {
-
-    }
-
-    Matriz::~Matriz()
-    {
-
-    }
+// Imprimir matriz
+void Matriz::imprimir(){
 
 
 
+}
+
+// Sumar matrices
+void Matriz::sumar(const Matriz& Matriz1){
+
+
+}
+
+// Multiplicar matrices
+void Matriz::multiplicar(const Matriz &, const Matriz &) {
 
 
 
+}
+
+// Producto Punto
+void Matriz::escalar(const Matriz &) {
+
+
+}
+
+// Trasposición de matriz
+void Matriz::transposicion(const Matriz &) {
+
+
+}
