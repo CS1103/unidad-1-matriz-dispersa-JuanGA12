@@ -10,6 +10,14 @@ Matriz::Matriz(): matriz{nullptr}, filas {0}, columnas{0} {
 // Crear matriz
 Matriz::Matriz(int f, int c): filas {f}, columnas{c} {
 
+    try {
+        if( filas <= 0 || columnas <= 0){
+            throw logic_error("No existe matriz con 0 o negativas filas o con 0 o negativas columnas");
+        }
+    }
+    catch (std::exception& e){
+        cout<<e.what()<<endl;
+    }
 
     matriz = new int*[filas];
     for (int i= 0 ; i < filas; i++)
@@ -20,7 +28,6 @@ Matriz::Matriz(int f, int c): filas {f}, columnas{c} {
 
 // Destructor
 Matriz::~Matriz() {
-
 }
 
 // Llenar matriz (por ahora se va a llenar sin dispersion para probar si funciona)
@@ -28,7 +35,7 @@ void Matriz::llenar(){
 
   for ( int i = 0; i < filas; i++) {
       for (int j = 0; j < columnas; j++) {
-          std::cout << "["<<i<<"]"<<"["<<j<<"]";
+          std::cout << "["<<i<<"]"<<"["<<j<<"]: ";
           std::cin >> matriz[i][j];
     }
   }

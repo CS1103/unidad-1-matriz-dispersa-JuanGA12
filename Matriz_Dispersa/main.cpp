@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    int filas, columnas;
+    int filas, columnas,num;
     cout<<"Ingresar # filas: ";
     cin>>filas;
     cout<<"Ingresar # columnas: ";
@@ -32,7 +32,6 @@ int main() {
     M3.imprimir();
     cout <<endl;
 
-
     M4 = M1 * M2; //Sobrecarga operador *
     std::cout << "El resultado de la multiplicación es: " << '\n';
     M4.imprimir();
@@ -43,10 +42,14 @@ int main() {
     M5.imprimir();
     cout <<endl;
 
-    M6.escalar(M1,5);
+
+    std::cout << "Ingrese numero para hacer la multiplicación escalar: ";
+    std::cin >> num;
+    M6.escalar(M1,num);
     std::cout << "El resultado de la multiplicacion escalar es: " << '\n';
     M6.imprimir();
     cout <<endl;
+
 
     // operador = ?
     /*int M4 [3][3] = { {1, 2 ,3}, {4,5,6} };
