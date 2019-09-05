@@ -11,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988d0c21-4d6a-434b-9056-6d680faef68d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Matriz_Dispersa/Matriz.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz_Dispersa/Matriz.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matriz_Dispersa/cmake-build-debug/CMakeFiles/Matriz_Dispersa.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz_Dispersa/cmake-build-debug/CMakeFiles/Matriz_Dispersa.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matriz_Dispersa/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz_Dispersa/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="988d0c21-4d6a-434b-9056-6d680faef68d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/Matriz_Dispersa/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +25,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-176">
               <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/Matriz.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="176">
+              <caret line="110" column="35" selection-start-line="110" selection-start-column="5" selection-end-line="111" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -53,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/Matriz.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271">
+            <state relative-caret-position="-33">
               <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
@@ -172,12 +168,12 @@
       <workItem from="1567393526470" duration="208000" />
       <workItem from="1567440668526" duration="235000" />
       <workItem from="1567657102846" duration="5333000" />
-      <workItem from="1567713940473" duration="4260000" />
+      <workItem from="1567713940473" duration="4738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27515000" />
+    <option name="totallyTimeSpent" value="27993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,6 +186,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.135101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -231,25 +228,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/Matriz.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
+        <state relative-caret-position="-33">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/Matriz.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="-176">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matriz_Dispersa/Matriz.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="5" selection-end-line="111" selection-end-column="43" />
         </state>
       </provider>
     </entry>
