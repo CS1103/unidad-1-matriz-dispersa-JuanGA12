@@ -18,52 +18,49 @@ int main() {
     Matriz M4(filas,columnas);
     Matriz M5(filas,columnas);
     Matriz M6(filas,columnas);
+    Matriz M7(filas,columnas);//auxiliar;
 
     M1.llenar();
     std::cout << "Matriz 1: " << '\n';
     M1.imprimir();
+
     M2.llenar();
     std::cout << "Matriz 2:" << '\n';
     M2.imprimir();
-    cout <<endl;
+    M7 = M2;
 
     M3 = M1 + M2; //Sobrecarga operador +
     std::cout << "El resultado de la suma es: " << '\n';
     M3.imprimir();
-    cout <<endl;
 
     M4 = M1 * M2; //Sobrecarga operador *
     std::cout << "El resultado de la multiplicación es: " << '\n';
     M4.imprimir();
-    cout <<endl;
 
     M5.transposicion(M1);
     std::cout << "El resultado de la matriz traspuesta es: " << '\n';
     M5.imprimir();
-    cout <<endl;
 
 
     std::cout << "Ingrese numero para hacer la multiplicación escalar: ";
     std::cin >> num;
+
     M6.escalar(M1,num);
-    std::cout << "El resultado de la multiplicacion escalar es: " << '\n';
+    std::cout<<std::endl;
+    std::cout << "El resultado de la multiplicacion escalar de la matriz M1 es: " << '\n';
     M6.imprimir();
-    cout <<endl;
+
+    std::cout<<"Matriz 1: "<<std::endl;
+    M1.imprimir();
 
 
-    // operador = ?
-    /*int M4 [3][3] = { {1, 2 ,3}, {4,5,6} };
-    int M5 [3][3] = { {15,23,31}, {14,17,18}, {41,63,65} };
-    int M6 = 20;
-    int M7 [4][4] = { {1, 2,3,4}, {4,5,6,7} };
+    std::cout<<"Matriz 2: "<<std::endl;
+
+    M2 = M7;// para la sobre carga + y * el resultado se guarda en el segundo termino, M3 = M1 + M2, ahora el resultado de esa operacion se va a guardar en M2 y la sobreescribira,
+    // es por eso que se crea un auxiliar para no perder el valor de M2.
+    M2.imprimir();
 
 
 
-    assert(M3.sumar(M1, M2) == M4);
-    assert(M3.multiplicar(M1, M2) == M5);
-    assert(M3.escalar(M1, M2) == M6);
-    assert(M3.transposicion(M1) == M7);
-
-    */
     return 0;
 }

@@ -28,15 +28,16 @@ Matriz::Matriz(int f, int c): filas {f}, columnas{c} {
 
 // Destructor
 Matriz::~Matriz() {
+
 }
 
-// Llenar matriz (por ahora se va a llenar sin dispersion para probar si funciona)
+// Llenar matriz
 void Matriz::llenar(){
+
 
   for ( int i = 0; i < filas; i++) {
       for (int j = 0; j < columnas; j++) {
-          std::cout << "["<<i<<"]"<<"["<<j<<"]: ";
-          std::cin >> matriz[i][j];
+          matriz[i][j] = (rand() % 9) + 1;
     }
   }
 
@@ -51,7 +52,7 @@ void Matriz::imprimir(){
     }
     cout << endl;
   }
-
+    cout << endl;
 }
 
 // Producto Punto
