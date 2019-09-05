@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-
+    srand(time(NULL));
     int filas, columnas,num;
     cout<<"Ingresar # filas: ";
     cin>>filas;
@@ -62,6 +62,7 @@ int main() {
     *M2 = *M7;// para la sobre carga + y * el resultado se guarda en el segundo termino, M3 = M1 + M2, ahora el resultado de esa operacion se va a guardar en M2 y la sobreescribira,
     // es por eso que se crea un auxiliar para no perder el valor de M2.
     M2->imprimir();
+
 
     delete M1;
     delete M2;
