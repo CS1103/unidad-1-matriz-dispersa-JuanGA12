@@ -42,7 +42,7 @@ int main() {
     M4->imprimir();
 
     M5->transposicion(*M1);
-    std::cout << "El resultado de la matriz traspuesta es: " << '\n';
+    std::cout << "El resultado de la matriz traspuesta de M1 es: " << '\n';
     M5->imprimir();
 
 
