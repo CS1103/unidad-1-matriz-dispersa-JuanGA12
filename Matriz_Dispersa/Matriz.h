@@ -12,7 +12,7 @@ private:
 public:
     Matriz(); // Cambian los datos que eran basura a cero o NULL
     Matriz( int, int); // Crear la matriz
-    virtual ~Matriz(); // Destructor
+    virtual ~Matriz() = default; // Destructor
 
     void llenar();   // 1. Necesitamos llenar la matriz
     void imprimir(); // 2. Necesitamos imprimir la matriz
